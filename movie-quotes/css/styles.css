@@ -1,0 +1,51 @@
+h1 {
+    color: ghostwhite;
+    font-size: 40px; 
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+body {
+    background-color:darkslategrey;
+  }
+
+  p {
+    font-size: 13px;
+    color: ghostwhite;
+      font-family: 'Franklin Gothic Medium', sans-serif;
+      text-align: center;
+
+    }
+
+  h2 {
+      font-size: 20px;
+      font-family: 'Franklin Gothic Medium', sans-serif;
+      font-weight: bold;
+      text-align: center;
+
+
+      
+  }
+  
+
+  .venkman {
+      color: lightyellow;
+  }
+
+  .barrett {
+      color:rosybrown;
+  }
+  .mayor {
+      color:steelblue;
+  }
+
+  .stantz {
+      color:mediumaquamarine
+  }
+
+  .spengler {
+      color:cornflowerblue;
+  }
+  .zeddemore {
+    color:darkcyan;
+}
