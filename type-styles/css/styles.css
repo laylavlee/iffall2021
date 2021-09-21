@@ -1,102 +1,98 @@
+body{
+    margin: 10%;
+    font-family: 'Ubuntu', sans-serif;
 
-html {font-family:'Ubuntu', sans-serif;} 
-
-
-h1 {
-    color:black;
-    font-size:40px;
-    font-family:'Ubuntu', sans-serif;
-    font-weight: bolder;
-    margin-right: 150px;
-    margin-top: 3em;
-    text-align: left;
-
-}
-
-h3 {
-    color:blueviolet;
-    font-size:18px;
-    font-family:'Ubuntu', sans-serif;
-    font-weight: normal;
-    margin-right: 150px;
-    text-align: left;
 }
 
 section {
-    margin-top: 3em;
-    margin-left: 80px;
+    margin: 3em 0;
+}
+
+h1 {
+    font-size: 50pt;
+    line-height: 0.2em;
 
 }
 
-.description {
-    color:rgb(253, 135, 89);
-    font-size:15px; 
-    font-family:'Ubuntu', sans-serif; 
+h2 {
+    font-size: 20pt;
 }
 
 
-.light {
+p {
+    text-indent: 1.3em;
+    font-size: 16pt;
+    line-height: 16pt;
+}
+
+
+.label {
+    font-size: 10pt;
+    color: rgba(167, 138, 247, 0.945);
+}
+
+.styledFont {
+    font-family: 'Ubuntu', sans-serif;
+
+}section.FontWeight p.Light {
     font-weight: lighter;
 }
-
-.regular {
+section.FontWeight p.Normal {
     font-weight: normal;
 }
 
-.bold {
-    font-weight: bolder;
+section.FontWeight p.Bold {
+    font-weight: bold;
+}
+
+section.FontStyle p.Normal {
+    font-style: normal;
 }
 
 .italic {
     font-style:italic;
 }
 
-.normal {
+.normalspacing {
     letter-spacing: normal;
 }
 
 .wide {
-    letter-spacing:.3em;
+    letter-spacing: .3em;
 }
 
-.tight {
-    letter-spacing: -0.06em;
+.narrow {
+    letter-spacing: -.06em;
 }
 
-.none {
-    text-decoration:none;
+.nodecoration {
+    text-decoration: none;
 }
 
 .underline {
-    text-decoration:underline;
+    text-decoration: underline;
 }
 
-.line-through {
-    text-decoration: underline;
+.LineThrough {
+    text-decoration: line-through;
 }
 
 .overline {
     text-decoration: overline;
 }
 
-.up {
+.notransformn {
+    text-transform: none;
+}
+
+.uppercase {
     text-transform: uppercase;
 }
 
-.low {
+.lowercase {
     text-transform: lowercase;
 }
 
-.cap {
+.capitalize {
     text-transform: capitalize;
 }
-p {
-    color:blueviolet;
-    font-size:18px;
-    font-family:'Ubuntu', sans-serif;
-    
-}
-
-
-
-
