@@ -1,0 +1,9 @@
+img {
+    width: 30%;
+    border: 1px gray;
+    margin: 0px 2%;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 10%;
+}
