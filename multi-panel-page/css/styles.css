@@ -1,0 +1,153 @@
+body {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+h1 {
+    margin:0;
+    text-align: center;
+}
+
+.content {
+    width: 960px;
+    margin: auto;
+}
+
+header{
+    text-align: center;
+    background-image:url(https://images6.fanpop.com/image/photos/43100000/Karigurashi-no-Arrietty-Wallpaper-karigurashi-no-arrietty-43183355-1920-1080.jpg);
+    background-size: cover;
+    background-position: center;
+    color: blanchedalmond;
+}
+
+header .content{
+    padding: 152px 0 148px 0;
+}
+
+header h1 {
+    font-size:80px;
+}
+
+header h2 {
+    font-size: 30px;
+    margin-top:-3px;
+}
+
+section .content{
+    padding: 50px 0 27px 0;
+}
+
+ section h1{
+     font-size: 40px;
+     padding-bottom: 16px;
+     color: rgb(90, 121, 83);
+ }
+
+.secondphoto {
+    height: 300px;
+    width: 400px;
+    float: right;
+    object-fit: cover;
+    padding: 19px 0 36px 39px;
+
+}
+p {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.grid {
+    padding: 0;
+}
+
+.grid li {
+    display: block;
+}
+
+.using-flex {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    position: relative;
+}
+.grid li img{
+    width: 200px;
+    height: 150px;
+    float:left;
+    margin-right:10px;
+}
+
+li {
+    display: block;
+    margin-bottom: 16px;
+    margin-top: 0px;
+}
+
+.gridtext {
+    font-size: 18px;
+    margin-left: -27px;
+    margin-right: 25px;
+    margin-top: 13px;
+}
+
+h3 {
+    font-size: 20px;
+    margin: 0;
+    line-height: 1px;
+}
+
+.back {
+    background-color: rgb(196, 218, 155);
+}
+
+
+
+.gridtext div {
+    margin-top: 22px;
+}
+
+
+
+.last {
+    text-align: center;
+    font-size: 25px;
+    line-height: 36px;
+    margin-left: 25%;
+    margin-right: 25%;
+
+
+}
+
+
+.lastsection {
+    padding: 38px 0 20px 0;
+    padding-bottom:98px;
+
+
+}
+
+.lastsection h1 {
+    padding-bottom: 8px;
+}
+
+
+
+.copyright{
+    font-size: 19px;
+    letter-spacing: -.3px;
+    margin-left: 0%;
+}
+
+#background1 {
+    background-color: rgb(196, 218, 155);
+}
+
+#background2 {
+    background-color: rgb(255, 195, 223);
+}
+
+.background3 {
+    background-color: rgb(196, 218, 155);
+}
+
+
