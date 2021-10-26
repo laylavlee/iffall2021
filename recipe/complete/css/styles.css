@@ -1,0 +1,116 @@
+
+.top {
+    background-color:#C7DBDB;
+
+}
+body {
+    font-family: gopher,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+   
+}
+
+header {
+    position: relative;
+    padding-right: 20px; 
+
+
+}
+header p {
+    line-height: 2;
+
+}
+.section1 {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+.content {
+    max-width: 800px;
+    width: 90%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+}
+
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+  }
+h1 {
+    text-align: left;
+    margin-top: 10%;
+    margin-bottom: 0;
+    color:red;
+}
+
+
+@media (min-width:640px) {
+    h1 {font-size: 4rem;}
+    h2 {font-size: 2rem;}
+}
+
+@media (max-width:540px) {
+    h1 {font-size: 2rem;}
+    p {font-size: .6rem;}
+    li {font-size: .6rem;}
+}
+
+
+
+.section1 {
+display: float;
+float: left;
+width: 50%;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nutrition h3 {
+    text-align: center;
+}
+.nutrition li {
+    list-style-type:none;
+    text-align:center;
+    padding-bottom: 20px;
+}
+
+
+li {
+    line-height: 1.3;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin: 17px;
+}
+li::marker {
+    color: red;
+  }
+
+ul {
+    list-style-position: inside;
+  }
+  ul ::marker {
+    color: red;
+  }
+
+
+  .photos img{
+    float:center;
+    margin: 5% 0% 0% 0%;
+
+    width:30%;
+}
+
+
+
+
+.tips p {
+    padding-bottom: 20px;
+}
