@@ -1,0 +1,517 @@
+body {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 40px;
+}
+
+h1 {
+     font-size: 30px;
+     margin-bottom: 40px;
+}
+
+.button_container {
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* COCACOLA */
+
+
+a#cocacola {
+   
+    display:inline-block;
+    box-sizing:border-box;
+    border-radius: 50px;
+    margin-top:90px;
+    margin-bottom:auto;
+    transition: all .5s;
+
+}
+
+a#cocacola:hover {
+    display:inline-block;
+    box-sizing:border-box;
+    border-radius:80px;
+    width:260px;
+    height:90px;
+    border: 3.5px solid rgb(244, 0, 0);
+
+}
+
+
+/* APPLE */
+
+a#apple {
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: auto;
+    color:darkgrey;
+    margin-top: 60px;
+    padding-top: 8px;
+    text-align: center;
+    font-size: 80px;
+    transition: all .8s;
+}
+
+a#apple:hover {
+    transform:  scale(1.7);
+    color:black
+
+
+}
+
+/* LYFT */
+
+a#lyft {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    background-color: rgb(212, 92, 216);
+    border: 2px solid rgb(212, 92, 216);
+    color: #fff;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#lyft:hover {
+    background-color: #fff;
+    border: 2px rgb(212, 92, 216);
+    color: #000;
+}
+
+/* MISSOURI BG */
+a#mbg {
+    display: inline-block;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    color: rgb(55, 146, 28);
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+}
+a#mbg:hover {
+letter-spacing: .2em;}
+
+
+/* HARLEY DAVIDSON */
+
+
+@keyframes hd {
+    33% { transform: skew(25deg); }
+    66% { transform: skew(-25deg); }
+  }
+#hd img{
+    width: 90%;
+    margin-top: 60px;
+}
+#hd:hover img{
+    transform-origin: center;
+    animation-name: hd;
+    animation-duration: 1s;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+}
+
+/* SARDELLA */
+
+a#sardella {
+    display: inline-block;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    color: rgb(123, 159, 189);
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+    letter-spacing: .4em;
+    line-height: 1.5;
+}
+
+a#sardella:hover {
+    letter-spacing: 0;
+}
+
+/* IDEO */
+
+a#ideo {
+    display: inline-block;
+    margin: auto;
+    margin-top: 90px;
+    padding: 10px 40px 0 40px;
+    color: rgb(87, 214, 231);
+    font-size: 50px;
+    font-family: 'Montserrat';
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#ideo:hover {
+    font-weight: 700;
+    color: rgb(231, 87, 87);
+
+}
+
+/* OLD NAVY */
+
+a#oldnavy {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    background-color: rgb(38, 86, 141);
+    border: 2px solid rgb(38, 86, 141);
+    color: #fff;
+    font-size: 20px;
+    font-family:'Open Sans';
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#oldnavy:hover {
+    color:rgb(38, 86, 141);
+    background-color: white;
+    letter-spacing: .2em;
+
+}
+
+
+/* COLOR RUN */
+
+a#thecolorrun {
+    display: inline-block;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 10px 40px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#thecolorrun:hover {
+    color:white;
+    background: linear-gradient(45deg, #f85032 0%,#d8ff63 43%,#09b70e 57%,#146ece 81%,#ad26e2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    border-radius: 20px;
+}
+
+/* MOO */
+
+a#moo {
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    color: rgb(255, 106, 106);
+    font-size: 60px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+
+}
+a#moo:hover {
+    
+    display:inline-block;
+    box-sizing:border-box;
+    border-radius:500px;
+    width:250px;
+    height:100px;
+    border: 5px solid rgb(105, 228, 212);
+    color:rgb(105, 228, 212);
+}
+
+
+/* CARTOON NETWORK */
+
+
+a#cn {
+    display:inline-block;
+    box-sizing:border-box;
+    margin-top:50px;
+    transition: all .8s;
+}
+
+a#cn:hover {
+  transform: rotateZ(180deg);
+  transform: rotateX(180deg);
+
+}
+
+/* MOLLYJOGGER */
+a#mollyjogger {
+    font-family: 'Homemade Apple', cursive;
+    display: inline-block;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    color: rgb(255, 106, 106);
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration:none;
+    transition: all .5s;
+
+}
+.underline {
+    display: inline;
+    position: relative;
+    overflow: hidden;
+  }
+  .underline:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: 20px;
+    background: rgb(255, 106, 106);
+    height: 2px;
+    transition-property: left right;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+  }
+  .underline:hover:after,
+  .underline:focus:after,
+  .underline:active:after {
+    right: 0;
+  }
+  a#mollyjogger .underline:after{
+    background: rgb(255, 106, 106)  }
+
+
+/* NIKE */
+
+
+a#nike {
+    display:inline-block;
+    box-sizing:border-box;
+    margin-top:40px;
+    transition: all .8s;
+}
+
+a#nike:hover img{
+    transform: translate(50%, -50%);
+    transition: all .8s;
+
+}
+.button-text{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;    font-weight: bold;
+    display: inline-block;
+	font-size: 40px;
+	font-weight: bold;
+    color: black;
+    text-decoration: none;
+    margin:auto;
+}
+
+a#nike .button-text {
+    opacity: 0;
+    transition: opacity .5s;
+    width: 100%;
+    left: 0;
+   }
+  
+   a#nike:hover .button-text {
+    opacity: 1;
+    transition: opacity 0.5s
+  }
+
+/* ST JUDE */
+a#stjude {
+
+    text-decoration: none;
+    margin: auto;
+    position: relative;
+    margin-top: 50px;
+    
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-decoration: none;    
+    font-size: 30px;
+    color: rgb(62, 58, 66);
+    padding-top: 19%;
+    
+    transition: all .5s;
+
+    display: block;
+    width: 130px;
+    height: 130px;
+    box-sizing: border-box;
+    border-radius: 75px;
+    border:1px solid  #0477C8;
+}
+
+#stjude:hover {
+    color:white;
+    background: linear-gradient(135deg, #f85032 0%,#146ece 52%,#ad26e2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+/* POTTERMORE */
+a#pottermore {
+    display: inline-block;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    color: black;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+    transition: all .5s;
+}
+a#pottermore:hover {
+    color: orange;
+    background-color: #cc0000;
+    box-shadow: 0 0 10px #ff0000;}
+
+
+
+/* SAMSUNG */
+  a#samsung {
+    display:inline-block;
+    box-sizing:border-box;
+    margin-top:70px;
+    transition: all 1s;
+}
+
+a#samsung:hover {
+    background-color: #034ea2;
+    border-radius: 15px;
+}
+
+/* VELOCITY */
+
+a#velocity {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: #fff;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all .2s;
+}
+
+a#velocity:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgb(0, 3, 204);
+    transition: all .5s;
+}
+
+a#velocity:hover {
+    color: #fff;
+}
+
+a#velocity:hover:before {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+a#velocity span {
+    position: relative;
+    z-index: 10;
+}
+
+
+
+/* BISSINGER */
+
+
+a#bissingers {
+    display: inline-block;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    color: rgb(184, 121, 39);
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-style:inherit;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#bissingers:hover {
+    transform: rotateY(360deg) scale(0.7);
+
+}
+
+/* NEWYORKER */
+
+a#newyorker {
+    display:inline-block;
+    box-sizing:border-box;
+    margin-top: 60px;
+    transition: all .8s;
+}
+
+a#newyorker:hover {
+    margin-top: 100px;
+    transform: translate( -20%) scale(0.7);
+
+}
+
+/* ELECTRA */
+a#electra {
+    display: inline-block;
+    margin: auto;
+    margin-top: 90px;
+    padding: 10px 40px 0 40px;
+    color: rgb(42, 165, 214);
+    font-size: 50px;
+    font-family: 'Montserrat';
+    font-style: bold;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+#electra:hover {
+    text-shadow: 0 4px 5px #264553;
+    color: rgb(231, 204, 130);
+}
