@@ -1,0 +1,27 @@
+header{
+    text-align: center;
+    background-image:url(https://i.imgur.com/O7ZWigt.png);
+    background-size: cover;
+    background-position: center;
+}
+nav#main-nav ul {
+    list-style: none
+
+}
+
+.content {
+    width: 960px;
+    margin: auto;
+}
+
+.logo {
+    width: 100px;
+}
+
+.pokeball{
+width: 40px;
+}
+
+.welcome {
+    width: 30%;
+}
